@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <com.tongtianhe.easyandroid.ui.base.view.TitleBar
+            android:id="@+id/atb_title_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <FrameLayout
+                android:id="@+id/atb_layout_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        <com.tongtianhe.easyandroid.ui.base.view.NetErrorView
+                android:id="@+id/atb_net_error_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"/>
+
+        <com.tongtianhe.easyandroid.ui.base.view.LoadingView
+                android:id="@+id/atb_loading_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"/>
+
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,976 @@
+<resources>
+
+    <dimen name="padding_24px">13dp</dimen>
+    <dimen name="simple_list_item_height_72px">40dp</dimen>
+    <dimen name="main_bg_height_96px">54dp</dimen>
+    <dimen name="main_btn_height_80px">45dp</dimen>
+
+    <!-- ui的距离使用 size_xx-->
+    <dimen name="size_0px">0dp</dimen>
+    <dimen name="size_2px">1dp</dimen>
+    <dimen name="size_3px">1.5dp</dimen>
+    <dimen name="size_4px">2dp</dimen>
+    <dimen name="size_6px">3dp</dimen>
+    <dimen name="_size_6px">-3dp</dimen>
+    <dimen name="size_8px">4dp</dimen>
+    <dimen name="size_10px">5dp</dimen>
+    <dimen name="size_12px">6dp</dimen>
+    <dimen name="size_14px">7dp</dimen>
+    <dimen name="size_16px">9dp</dimen>
+    <dimen name="size_17px">9dp</dimen>
+    <dimen name="size_18px">10dp</dimen>
+    <dimen name="size_20px">11dp</dimen>
+    <dimen name="size_22px">12dp</dimen>
+    <dimen name="size_24px">13dp</dimen>
+    <dimen name="size_28px">15dp</dimen>
+    <dimen name="size_30px">16dp</dimen>
+    <dimen name="size_32px">18dp</dimen>
+    <dimen name="size_36px">20dp</dimen>
+    <dimen name="size_40px">22dp</dimen>
+    <dimen name="size_46px">25dp</dimen>
+    <dimen name="size_48px">27dp</dimen>
+    <dimen name="size_50px">28dp</dimen>
+    <dimen name="size_52px">29dp</dimen>
+    <dimen name="size_54px">30dp</dimen>
+    <dimen name="size_56px">31dp</dimen>
+    <dimen name="size_60px">33dp</dimen>
+    <dimen name="size_64px">36dp</dimen>
+    <dimen name="size_66px">37dp</dimen>
+    <dimen name="size_70px">39dp</dimen>
+    <dimen name="size_72px">40dp</dimen>
+    <dimen name="size_74px">41dp</dimen>
+    <dimen name="size_76px">42dp</dimen>
+    <dimen name="size_80px">45dp</dimen>
+    <dimen name="size_88px">49dp</dimen>
+    <dimen name="size_90px">50dp</dimen>
+    <dimen name="size_96px">54dp</dimen>
+    <dimen name="size_100px">56dp</dimen>
+    <dimen name="size_102px">57dp</dimen>
+    <dimen name="size_104px">58dp</dimen>
+    <dimen name="size_112px">63dp</dimen>
+    <dimen name="size_116px">65dp</dimen>
+    <dimen name="size_120px">67dp</dimen>
+    <dimen name="size_124px">69dp</dimen>
+    <dimen name="size_128px">72dp</dimen>
+    <dimen name="size_136px">76dp</dimen>
+    <dimen name="size_140px">78dp</dimen>
+    <dimen name="size_144px">81dp</dimen>
+    <dimen name="size_148px">83dp</dimen>
+    <dimen name="size_152px">85dp</dimen>
+    <dimen name="size_156px">87dp</dimen>
+    <dimen name="size_160px">90dp</dimen>
+    <dimen name="size_168px">94dp</dimen>
+    <dimen name="size_176px">99dp</dimen>
+    <dimen name="size_184px">103dp</dimen>
+    <dimen name="size_188px">105dp</dimen>
+    <dimen name="size_192px">108dp</dimen>
+    <dimen name="size_200px">112dp</dimen>
+    <dimen name="size_208px">117dp</dimen>
+    <dimen name="size_214px">120dp</dimen>
+    <dimen name="size_216px">121dp</dimen>
+    <dimen name="size_220px">123dp</dimen>
+    <dimen name="size_224px">126dp</dimen>
+    <dimen name="size_240px">135dp</dimen>
+    <dimen name="size_260px">146dp</dimen>
+    <dimen name="size_272px">153dp</dimen>
+    <dimen name="size_280px">157dp</dimen>
+    <dimen name="size_296px">166dp</dimen>
+    <dimen name="size_352px">198dp</dimen>
+    <dimen name="size_360px">202dp</dimen>
+    <dimen name="size_452px">254dp</dimen>
+    <dimen name="size_520px">292dp</dimen>
+    <dimen name="size_592px">333dp</dimen>
+    <dimen name="size_660px">370dp</dimen>
+
+    <!-- 下拉刷新 -->
+    <dimen name="header_height">60dp</dimen>
+    <dimen name="footer_height">90dp</dimen>
+    <dimen name="footer_padding">10dp</dimen>
+
+    <!-- 登录注册 -->
+    <dimen name="passport_btn_height_80px">45dp</dimen>
+    <dimen name="passport_page_vert_padding_72px">40dp</dimen>
+    <dimen name="passport_page_hori_padding_72px">40dp</dimen>
+    <dimen name="passport_edittext_left_padding_24px">13dp</dimen>
+    <dimen name="passport_edittext_left_drawable_padding_24px">13dp</dimen>
+    <dimen name="passport_input_field_height_80px">45dp</dimen>
+    <dimen name="passport_input_field_divider_padding_11px">6dp</dimen>
+    <dimen name="passport_third_party_view_bottom_margin_40px">15dp</dimen>
+    <dimen name="passport_third_party_button_top_margin_32px">12dp</dimen>
+    <dimen name="passport_third_party_login_tips_hori_padding_14px">7dp</dimen>
+    <dimen name="passport_third_party_login_btn_top_margin">80dp</dimen>
+    <dimen name="passport_third_party_login_btn_height_72px">40dp</dimen>
+    <dimen name="passport_third_party_login_btn_padding_28px">15dp</dimen>
+    <dimen name="passport_third_party_login_btn_spacing_24px">13dp</dimen>
+    <dimen name="passport_third_party_login_btn_spacing_18px">9dp</dimen>
+    <dimen name="passport_third_party_login_btn_spacing_margin">2dp</dimen>
+    <dimen name="passport_14px">7dp</dimen>
+    <dimen name="passport_44px">24dp</dimen>
+    <dimen name="passport_180px">100dp</dimen>
+    <dimen name="passport_56px">31dp</dimen>
+    <dimen name="passport_48px">27dp</dimen>
+    <dimen name="passport_24px">13dp</dimen>
+    <dimen name="passport_160px">90dp</dimen>
+    <dimen name="passport_72px">40dp</dimen>
+    <dimen name="passport_divider_horizontal_height">1dp</dimen>
+    <dimen name="passport_divider_vertical_width">1dp</dimen>
+    <dimen name="passport_divider_vertical_height">32dp</dimen>
+    <dimen name="font_32px">18sp</dimen>
+    <dimen name="font_28px">15sp</dimen>
+
+    <!-- 个人中心 -->
+    <dimen name="personal_center_180px">101dp</dimen>
+    <dimen name="personal_center_50px">28dp</dimen>
+    <dimen name="personal_center_24px">13dp</dimen>
+    <dimen name="personal_center_28px">15dp</dimen>
+    <dimen name="personal_center_18px">10dp</dimen>
+    <dimen name="personal_center_12px">6dp</dimen>
+    <dimen name="personal_center_40px">22dp</dimen>
+    <dimen name="personal_center_32px">18dp</dimen>
+    <dimen name="personal_center_104px">58dp</dimen>
+    <dimen name="personal_center_20px">11dp</dimen>
+    <dimen name="personal_center_88px">49dp</dimen>
+    <dimen name="personal_center_16px">9dp</dimen>
+    <dimen name="personal_center_136px">76dp</dimen>
+    <dimen name="personal_center_102px">57dp</dimen>
+    <dimen name="personal_center_56px">31dp</dimen>
+    <dimen name="personal_center_80px">45dp</dimen>
+    <dimen name="personal_center_72px">40dp</dimen>
+    <dimen name="personal_center_106px">59dp</dimen>
+    <dimen name="personal_center_10px">5dp</dimen>
+    <dimen name="personal_center_140px">78dp</dimen>
+
+    <!-- 注册 -->
+    <dimen name="reg1_icon_top_margin_44px">24dp</dimen>
+    <dimen name="reg1_icon_width_115px">64dp</dimen>
+    <dimen name="reg1_icon_height_180px">101dp</dimen>
+    <dimen name="reg1_btn_top_margin_48px">27dp</dimen>
+    <dimen name="reg1_protocal_line_height_80px">45dp</dimen>
+    <dimen name="reg1_protocal_line_top_margin_24px">13dp</dimen>
+    <dimen name="reg2_phone_tip_top_margin_56px">31dp</dimen>
+    <dimen name="reg2_phone_field_top_margin_48px">27dp</dimen>
+    <dimen name="reg2_code_btn_width_140px">78dp</dimen>
+    <dimen name="reg2_btn_top_margin_48px">27dp</dimen>
+    <dimen name="reg3_pwd_input_field_top_margine_56px">31dp</dimen>
+    <dimen name="reg3_show_pwd_btn_width_72px">40dp</dimen>
+
+    <!-- 附近验光点 -->
+    <dimen name="glasses_map_info_margin">8dp</dimen>
+    <dimen name="glasses_map_info_with_max">227dp</dimen>
+    <dimen name="glasses_map_info_yoffset">-27dp</dimen>
+
+    <!-- 全局 -->
+    <dimen name="main_titlebar_title_size_32">18sp</dimen>
+    <dimen name="main_titlebar_icon_padding_33px">11dp</dimen>
+    <dimen name="main_textview_line_padding_16px">9dp</dimen>
+    <dimen name="main_textview_line_padding_8px">4dp</dimen>
+    <dimen name="main_titlebar_height_88px">49dp</dimen>
+    <dimen name="main_space_size_24px">13dp</dimen>
+    <dimen name="main_titlebar_bottom_margin_24px">13dp</dimen>
+    <dimen name="main_titlebar_bottom_margin_32px">18dp</dimen>
+    <dimen name="menu_width">148dp</dimen>
+    <dimen name="menu_height">40dp</dimen>
+    <dimen name="main_button_height_88px">44dp</dimen>
+    <dimen name="main_divider_height_24px">13dp</dimen>
+    <dimen name="main_divider_height_22px">11dp</dimen>
+    <dimen name="main_content_padding_16px">9dp</dimen>
+    <dimen name="main_content_padding_24px">13dp</dimen>
+    <dimen name="main_text_line_spacing_9px">5dp</dimen>
+    <dimen name="net_err_top_margin_56px">31dp</dimen>
+    <dimen name="net_err_refresh_button_width_320px">160dp</dimen>
+    <dimen name="divider_height_24px">13dp</dimen>
+    <dimen name="dialog_title_bottom_margin_48px">27dp</dimen>
+    <dimen name="dialog_title_height_80px">45dp</dimen>
+
+    <!-- 空页面 -->
+    <dimen name="empty_view_image_top_margin_112px">63dp</dimen>
+    <dimen name="empty_view_title_top_margin_40px">22dp</dimen>
+    <dimen name="empty_view_btn_top_margin_64px">36dp</dimen>
+    <dimen name="empty_view_btn_height_80px">45dp</dimen>
+    <dimen name="empty_view_btn_width_360px">202dp</dimen>
+
+    <!-- splash + 引导页 -->
+    <dimen name="splash_all_right_text_bottom_margin">40dp</dimen>
+    <dimen name="introduce_dots_bottom_margin_36px">12dp</dimen>
+    <dimen name="introduce_main_text_bottom_margin_35px">12dp</dimen>
+    <dimen name="introduce_second_text_bottom_margin_33px">11dp</dimen>
+    <dimen name="introduce_button_bottom_margin_192px">60dp</dimen>
+    <dimen name="introduce_dots_width_dp_value">10dp</dimen>
+    <dimen name="introduce_dots_margin_dp_value">10dp</dimen>
+    <dimen name="introduce_button_width_735px">245dp</dimen>
+    <dimen name="introduce_button_height_136px">46dp</dimen>
+    <dimen name="introduce_button_left_padding">14dp</dimen>
+    <dimen name="introduce_button_top_padding">7dp</dimen>
+    <dimen name="introduce_button_right_padding">14dp</dimen>
+    <dimen name="introduce_button_bottom_padding">7dp</dimen>
+    <dimen name="introduce_tip_margin_top_tv">10dp</dimen>
+    <dimen name="introduce_title_margin_top_tip">8dp</dimen>
+    <dimen name="introduce_top_margin_top_bottom">30dp</dimen>
+    <dimen name="introduce_tv_title">26dp</dimen>
+    <dimen name="introduce_tv_tip">20dp</dimen>
+    <dimen name="introduce_bottom_height">210dp</dimen>
+    <dimen name="introduce_tv_enter_width">140dp</dimen>
+    <dimen name="introduce_tv_enter_height">36dp</dimen>
+    <dimen name="introduce_tv_enter_bottom_margin">40dp</dimen>
+
+    <!-- 版本升级 -->
+    <dimen name="update_dialog_title_top_margin">20dp</dimen>
+    <dimen name="update_dialog_content_padding_top">15dp</dimen>
+    <dimen name="update_dialog_content_padding_bottom">20dp</dimen>
+    <dimen name="update_dialog_content_padding_left">10dp</dimen>
+    <dimen name="update_dialog_content_padding_right">8dp</dimen>
+    <dimen name="update_dialog_divider">0.3dp</dimen>
+    <dimen name="update_dialog_tv_height">40dp</dimen>
+
+    <!-- 首页 -->
+    <dimen name="main_tabbar_height_88px">49dp</dimen>
+    <dimen name="main_tabbar_height_176px">58dp</dimen>
+    <dimen name="main_titlebar_icon_area_margin">6dp</dimen>
+    <dimen name="main_titlebar_icon_area_width_64px">32dp</dimen>
+    <dimen name="main_titlebar_icon_area_height_64px">32dp</dimen>
+    <dimen name="main_titlebar_icon_area_width_72px">48dp</dimen>
+    <dimen name="main_titlebar_icon_area_height_72px">48dp</dimen>
+    <dimen name="main_titlebar_icon_message_width_40px">20dp</dimen>
+    <dimen name="main_titlebar_icon_message_height_40px">20dp</dimen>
+    <dimen name="main_tabbar_icon_message_height">18dp</dimen>
+    <dimen name="main_toptext_marginleft_40px">13dp</dimen>
+    <dimen name="main_drawable_bottom">3dp</dimen>
+
+    <!-- 页面距顶端宽度 -->
+    <dimen name="main_pager_top_margin_24px">13dp</dimen>
+    <dimen name="main_pager_top_margin_32px">18dp</dimen>
+    <dimen name="main_pager_top_margin_16px">9dp</dimen>
+    <dimen name="personal_center_divider_vertiacl_margin_16px">9dp</dimen>
+
+    <!-- 主页 -->
+    <dimen name="home_banner_height">160dp</dimen>
+    <dimen name="home_waterfall_top_margin">16dp</dimen>
+    <dimen name="home_waterfall_side_margin">19dp</dimen>
+    <dimen name="home_waterfall_container_margin">9dp</dimen>
+    <dimen name="home_waterfall_item_vertical_margin">24dp</dimen>
+    <dimen name="home_waterfall_item_content_padding_16px">8dp</dimen>
+    <dimen name="home_waterfall_item_content_bottom_padding">8dp</dimen>
+    <dimen name="home_waterfall_item_content_padding_32px">16dp</dimen>
+    <dimen name="home_waterfall_item_content_horizontal_padding">3dp</dimen>
+    <dimen name="home_waterfall_item_delete_button_width_64px">32dp</dimen>
+    <dimen name="home_waterfall_item_delete_button_height_64px">32dp</dimen>
+    <dimen name="home_category_margin_24px">13dp</dimen>
+    <dimen name="home_bbs_margin_24px">13dp</dimen>
+    <dimen name="home_bbs_title_height_88px">49dp</dimen>
+    <dimen name="home_bbs_item_hori_margin_16px">9dp</dimen>
+    <dimen name="home_bbs_item_vert_margin_24px">13dp</dimen>
+
+    <!-- 活动页 -->
+    <dimen name="home_merchant_detail_header_height_136px">76dp</dimen>
+    <dimen name="home_merchant_detail_header_vertical_padding_20px">11dp</dimen>
+
+    <!-- passport -->
+    <dimen name="main_page_hori_margin_24px">13dp</dimen>
+    <dimen name="main_page_hori_margin_16px">9dp</dimen>
+    <dimen name="main_page_vert_margin_16px">9dp</dimen>
+    <dimen name="main_page_vert_margin_24px">13dp</dimen>
+    <dimen name="main_page_vert_margin_36px">20dp</dimen>
+    <dimen name="passport_content_vert_margin_40px">22dp</dimen>
+    <dimen name="passport_content_vert_margin_small_24px">13dp</dimen>
+    <dimen name="passport_content_vert_margin_small_16px">8dp</dimen>
+    <dimen name="passport_content_vert_margin_big_48px">24dp</dimen>
+    <dimen name="passport_input_field_height_72px">40dp</dimen>
+    <dimen name="passport_button_height_88px">49dp</dimen>
+    <dimen name="passport_input_field_left_padding_32px">16dp</dimen>
+    <dimen name="passport_input_field_icon_pddding_16px">8dp</dimen>
+    <dimen name="login_horizontal_pddding">19dp</dimen>
+    <dimen name="login_vertical_pddding">16dp</dimen>
+    <dimen name="login_input_field2_height">100dp</dimen>
+    <dimen name="login_input_field_center_line_margin">5dp</dimen>
+    <dimen name="login_input_field_vertical_margin">24dp</dimen>
+    <dimen name="login_button_top_margin">20dp</dimen>
+    <dimen name="login_verycode_input_field_width">135dp</dimen>
+    <dimen name="login_verycode_width_192px">86dp</dimen>
+    <dimen name="login_verycode_refresh_button_width_48px">27dp</dimen>
+    <dimen name="login_verycode_image_width">87dp</dimen>
+    <dimen name="login_register_text_width">72dp</dimen>
+    <dimen name="login_register_text_height">31dp</dimen>
+    <dimen name="global_button_horizontal_margin">12dp</dimen>
+
+    <!-- 注册页面 -->
+
+    <dimen name="register_1_confirm_tips_margin">5dp</dimen>
+    <dimen name="register_1_verycode_button_width">113dp</dimen>
+    <dimen name="register_1_tips_height_160px">90dp</dimen>
+
+    <!-- 商品详情页面 -->
+    <dimen name="product_detail_intro_view_top_margin_168px">95dp</dimen>
+    <dimen name="product_detail_header_container_height">224dp</dimen>
+    <dimen name="product_detail_page_padding_24px">13dp</dimen>
+    <dimen name="product_detail_page_padding_12px">6dp</dimen>
+    <dimen name="product_detail_produce_time_left_margin_40px">22dp</dimen>
+    <dimen name="product_detail_find_inspiration_button_width_140px">78dp</dimen>
+    <dimen name="product_detail_limit_sale_tips_height_80px">45dp</dimen>
+    <dimen name="product_detail_limit_sale_close_button_left_margin_32px">18dp</dimen>
+    <dimen name="product_detail_add_to_shopcar_button_width_280px">157dp</dimen>
+    <dimen name="product_detail_add_to_shopcar_button_height_80px">45dp</dimen>
+    <dimen name="product_detail_f_code_button_width_140px">78dp</dimen>
+    <dimen name="product_detail_f_code_button_height_80px">45dp</dimen>
+    <dimen name="product_detail_price_height_50px">28dp</dimen>
+    <dimen name="product_detail_save_button_width_120px">67dp</dimen>
+    <dimen name="product_detail_save_button_height_48px">27dp</dimen>
+    <dimen name="product_detail_save_button_padding_18px">10dp</dimen>
+    <dimen name="product_detail_time_text_height_48px">24dp</dimen>
+    <dimen name="product_detail_service_drawable_padding">3dp</dimen>
+    <dimen name="merchant_tel_margin_top_16px">9dp</dimen>
+    <dimen name="product_detail_merchant_score_height_112px">63dp</dimen>
+    <dimen name="product_detail_merchant_score_divider_padding_21px">7dp</dimen>
+    <!-- 顶部大图 -->
+    <dimen name="product_detail_top_image_height_810px">270dp</dimen>
+    <dimen name="prodcut_detail_editor_top_buttons_height_88px">49dp</dimen>
+    <dimen name="prodcut_detail_editor_top_buttons_icon_right_margin_24px">13dp</dimen>
+    <dimen name="prodcut_detail_editor_pop_title_height_80px">45dp</dimen>
+    <dimen name="prodcut_detail_editor_pop_title_left_margin_24px">13dp</dimen>
+    <dimen name="prodcut_detail_editor_pop_comp_item_88px">49dp</dimen>
+    <dimen name="prodcut_detail_editor_pop_comp_item_icon_width_48px">27dp</dimen>
+    <dimen name="prodcut_detail_editor_pop_comp_item_icon_height_48px">27dp</dimen>
+    <dimen name="prodcut_detail_editor_pop_comp_material_item_title_height_64px">36dp</dimen>
+    <dimen name="prodcut_detail_editor_pop_model_xg_item_icon_width_120px">67.5dp</dimen>
+    <dimen name="prodcut_detail_editor_pop_model_xg_item_icon_height_120px">67.5dp</dimen>
+    <dimen name="prodcut_detail_editor_pop_gg_model_list_item_88px">49dp</dimen>
+    <dimen name="prodcut_detail_editor_pop_gg_model_list_item_left_padding_48px">27dp</dimen>
+    <dimen name="prodcut_detail_editor_pop_xg_model_list_item_padding_20px">11dp</dimen>
+    <dimen name="prodcut_detail_editor_pop_xg_model_list_item_left_padding_32px">18dp</dimen>
+    <dimen name="prodcut_detail_editor_edit_button_width_80px">45dp</dimen>
+    <dimen name="prodcut_detail_editor_edit_button_height_96px">54dp</dimen>
+    <dimen name="prodcut_detail_editor_loading_view_height_80px">45dp</dimen>
+    <dimen name="editor_loding_view_width_40px">22dp</dimen>
+    <dimen name="editor_loding_view_height_40px">22dp</dimen>
+
+    <!-- 2个编辑按钮 -->
+    <dimen name="product_detail_control_bar_height">50dp</dimen>
+    <dimen name="product_detail_control_bar_content_height">40dp</dimen>
+    <dimen name="product_detail_control_bar_content_vertical_margin">5dp</dimen>
+    <!-- 新版按钮 圆角弧度 -->
+    <dimen name="product_detail_edit_btn_corner">2dp</dimen>
+    <dimen name="product_detail_edit_btn_height">40dp</dimen>
+    <dimen name="product_detail_edit_btn_margin_24px">12dp</dimen>
+    <dimen name="product_detail_share_btn_padding_36px">18dp</dimen>
+    <dimen name="product_detail_edit_btn_padding_70px">35dp</dimen>
+    <!-- 编辑按钮栏 -->
+    <dimen name="product_detail_control_button_width">12dp</dimen>
+    <dimen name="product_detail_control_button_height">11dp</dimen>
+    <dimen name="product_detail_control_button_padding">5dp</dimen>
+    <dimen name="product_detail_header_content_horizontal_padding_24px">12dp</dimen>
+    <dimen name="product_detail_header_content_vertical_padding_16px">8dp</dimen>
+
+    <!-- f码购买 -->
+    <dimen name="product_detail_fcode_window_title_height_88px">49dp</dimen>
+    <dimen name="product_detail_fcode_window_close_button_padding_36px">20dp</dimen>
+    <dimen name="product_detail_fcode_window_input_field_height_80px">45dp</dimen>
+    <dimen name="product_detail_fcode_window_input_field_padding_24px">13dp</dimen>
+    <dimen name="product_detail_fcode_window_main_button_height_80px">45dp</dimen>
+    <dimen name="product_detail_fcode_window_main_button_top_margin_32px">18dp</dimen>
+    <dimen name="product_detail_fcode_window_tips_top_margin_32px">18dp</dimen>
+
+    <!-- 作品展示(找灵感) -->
+    <dimen name="product_detail_find_inspiration_window_width_520px">292dp</dimen>
+    <dimen name="product_detail_find_inspiration_window_height_624px">351dp</dimen>
+    <dimen name="product_detail_find_inspiration_window_corner_15px">8dp</dimen>
+    <dimen name="product_detail_find_inspiration_window_horizontal_margin_60px">33dp</dimen>
+    <dimen name="product_detail_find_inspiration_arrow_left_margin_24px">13dp</dimen>
+    <dimen name="product_detail_find_inspiration_arrow_right_margin_12px">6dp</dimen>
+    <dimen name="product_detail_find_inspiration_arrow_height_100px">45dp</dimen>
+    <dimen name="product_detail_find_inspiration_img_top_margin_48px">27dp</dimen>
+    <dimen name="product_detail_find_inspiration_img_width_500px">27dp</dimen>
+    <dimen name="product_detail_find_inspiration_img_height_375px">210dp</dimen>
+    <dimen name="product_detail_find_inspiration_img_hori_padding_12px">6dp</dimen>
+    <dimen name="product_detail_find_inspiration_close_button_margin_24px">13dp</dimen>
+    <dimen name="product_detail_find_inspiration_close_button_width_400px">225dp</dimen>
+    <dimen name="product_detail_find_inspiration_close_button_height_80px">45dp</dimen>
+    <dimen name="product_detail_find_inspiration_go_button_bottom_margin_40px">22dp</dimen>
+
+    <!-- 材料说明 -->
+    <dimen name="material_intro_view_icon_width_140px">78dp</dimen>
+    <dimen name="material_intro_view_icon_height_140px">78dp</dimen>
+    <dimen name="material_intro_view_icon_right_margin_24px">13dp</dimen>
+    <dimen name="product_detail_header_content_gallery_heigth">80dp</dimen>
+    <dimen name="product_detail_comment_star_width">15dp</dimen>
+    <dimen name="product_detail_comment_star_height">15dp</dimen>
+    <dimen name="product_detail_comment_star_margin">3dp</dimen>
+    <dimen name="product_detail_item_height_80px">45dp</dimen>
+    <dimen name="product_detail_item_height_72px">40dp</dimen>
+    <dimen name="comment_content_height_160px">80dp</dimen>
+    <!-- 商品信息 -->
+    <dimen name="product_detail_service_icon_height_60px">33dp</dimen>
+
+    <!-- 促销信息 -->
+    <dimen name="product_detail_product_info_pomotion_height_80px">40dp</dimen>
+    <!-- 边界padding -->
+    <dimen name="product_detail_padding">12dp</dimen>
+    <!-- 向右的箭头 -->
+    <dimen name="product_detail_button_go_area_width">20dp</dimen>
+    <dimen name="product_detail_button_go_area_height">25dp</dimen>
+    <dimen name="product_detail_button_go_width">12dp</dimen>
+    <dimen name="product_detail_button_go_height_36px">18dp</dimen>
+    <dimen name="product_detail_change_property_button_width_16px">8dp</dimen>
+    <dimen name="product_detail_change_property_button_height_16px">8dp</dimen>
+    <dimen name="shopcar_promotion_height_72px">36dp</dimen>
+    <dimen name="shopcar_bottom_bar_height_88px">49dp</dimen>
+    <!-- 商家详情 -->
+    <dimen name="product_detail_merchant_icon_width_120px">67dp</dimen>
+    <dimen name="product_detail_merchant_icon_height_120px">67dp</dimen>
+    <dimen name="product_detail_merchant_icon_right_margin_40px">22dp</dimen>
+    <dimen name="product_detail_merchant_contact_button_width_220px">110dp</dimen>
+    <dimen name="product_detail_merchant_contact_button_height_72px">36dp</dimen>
+    <dimen name="product_detail_merchant_tel_height_36px">20dp</dimen>
+    <dimen name="product_detail_merchant_score_item_height_112px">63dp</dimen>
+    <dimen name="product_detail_merchant_top_padding_20px">11dp</dimen>
+    <dimen name="product_detail_merchant_bottom_padding_20px">11dp</dimen>
+    <dimen name="product_detail_merchant_left_padding_24px">13dp</dimen>
+    <dimen name="product_detail_merchant_right_padding_24px">13dp</dimen>
+    <dimen name="product_detail_container_divider_height_16px">8dp</dimen>
+    <!-- 滚动继续 -->
+    <dimen name="product_detail_pull_to_continue_vertical_margin_32px">16dp</dimen>
+
+    <!-- 添加购物车按钮 -->
+    <dimen name="product_detail_button_add_to_shopping_cart">44dp</dimen>
+    <dimen name="productDetail_operation_icon_size">15dp</dimen>
+    <dimen name="product_detail_bottombar_height_104px">58dp</dimen>
+
+    <!-- 地址新建、修改 -->
+    <dimen name="address_default_tips_right_margin_10px">5dp</dimen>
+    <dimen name="address_default_tips_hori_padding_10px">5dp</dimen>
+    <dimen name="address_default_tips_vert_padding_4px">2dp</dimen>
+    <dimen name="address_manage_item_content_padding_32px">16dp</dimen>
+    <dimen name="address_manage_item_content_padding_18px">10dp</dimen>
+    <dimen name="address_edit_item_height_80px">40dp</dimen>
+    <dimen name="address_edit_item_spinner_height">30dp</dimen>
+    <dimen name="address_edit_page_padding">13dp</dimen>
+    <dimen name="address_province_item_padding_32px">18dp</dimen>
+
+    <!-- 选择地址 -->
+    <dimen name="address_select_text_vertical_margin">12dp</dimen>
+
+    <!-- 修改商品数量、颜色、尺寸界面 -->
+    <dimen name="edit_prod_property_size_title_height_88px">44dp</dimen>
+    <dimen name="edit_prod_property_size_content_top_margin_24px">12dp</dimen>
+    <dimen name="edit_prod_property_size_content_top_margin_32px">16dp</dimen>
+    <dimen name="edit_product_property_icon_width">50dp</dimen>
+    <dimen name="edit_product_property_icon_height">50dp</dimen>
+    <dimen name="edit_product_property_page_padding_24px">12dp</dimen>
+    <dimen name="edit_product_property_page_padding_40px">20dp</dimen>
+    <dimen name="edit_product_property_page_margin_40px">20dp</dimen>
+    <dimen name="edit_product_property_shutdown_button_container_width_80px">40dp</dimen>
+    <dimen name="edit_product_property_shutdown_button_container_height_80px">40dp</dimen>
+    <dimen name="edit_product_property_shutdown_button_width_80px">40dp</dimen>
+    <dimen name="edit_product_property_shutdown_button_height_80px">40dp</dimen>
+    <dimen name="edit_product_property_shutdown_button_padding_16px">8dp</dimen>
+    <dimen name="edit_product_property_add_button_padding">10dp</dimen>
+    <dimen name="edit_prod_property_choose_num_item_height_144px">72dp</dimen>
+
+    <!-- 购物车  修改商品数量、颜色、尺寸界面 -->
+    <dimen name="edit_shopcar_item_property_package_item_height">45dp</dimen>
+    <dimen name="edit_shopcar_item_property_package_item_width">107dp</dimen>
+    <dimen name="edit_shopcar_item_property_package_item_icon_height_120px">60dp</dimen>
+    <dimen name="edit_shopcar_item_property_package_item_icon_width_120px">60dp</dimen>
+    <dimen name="edit_shopcar_item_property_package_item_text_margin">5dp</dimen>
+    <dimen name="edit_shopcar_property_button_bottom_margin_16px">8dp</dimen>
+
+    <!-- 编辑发票 -->
+    <dimen name="edit_invoice_title_height_88px">44dp</dimen>
+    <dimen name="edit_invoice_title_icon_width_80px">44dp</dimen>
+    <dimen name="edit_invoice_title_icon_height_80px">44dp</dimen>
+
+    <!-- 商品评价详情页面 -->
+    <dimen name="edit_product_comment_page_padding">10dp</dimen>
+    <dimen name="edit_product_comment_item_margin">12dp</dimen>
+    <dimen name="edit_product_comment_item_margin2">6dp</dimen>
+    <dimen name="edit_product_comment_header_title_height_80px">45dp</dimen>
+    <dimen name="edit_product_comment_item_horizontal_padding">10dp</dimen>
+    <dimen name="edit_product_comment_item_vertical_top_padding">10dp</dimen>
+    <dimen name="edit_product_comment_item_vertical_bottom_padding">10dp</dimen>
+    <dimen name="edit_product_comment_item_icon_width">34dp</dimen>
+    <dimen name="edit_product_comment_item_icon_height">34dp</dimen>
+    <dimen name="edit_product_comment_item_comment_top_margin">11dp</dimen>
+    <dimen name="edit_product_comment_item_comment_right_margin">22dp</dimen>
+    <dimen name="edit_product_comment_item_time_top_margin">20dp</dimen>
+    <dimen name="product_title_mrgin_184px">104dp</dimen>
+    <dimen name="product_detail_bottom_height_104px">59dp</dimen>
+
+    <!-- 商家详情页面 -->
+    <dimen name="merchant_detail_title_height_80px">40dp</dimen>
+    <dimen name="merchant_detail_item_vertical_margin_24px">12dp</dimen>
+    <dimen name="merchant_detail_item_vertical_margin_32px">16dp</dimen>
+    <dimen name="merchant_detail_footer_padding_vertical_12px">6dp</dimen>
+    <dimen name="merchant_detail_footer_padding_horizontal_24px">12dp</dimen>
+    <dimen name="merchant_detail_footer_button_margin_12px">6dp</dimen>
+    <dimen name="merchat_detail_button_icon_padding_12px">6dp</dimen>
+
+    <!-- 编辑器页面 -->
+    <dimen name="editor_fc_padding_16px">8dp</dimen>
+    <dimen name="editor_header_height_88px">44dp</dimen>
+    <dimen name="editor_header_top_padding_16px">8dp</dimen>
+    <dimen name="editor_header_back_button_width_72px">36dp</dimen>
+    <dimen name="editor_header_back_button_height_72px">36dp</dimen>
+    <dimen name="editor_header_back_button_icon_margin_16px">8dp</dimen>
+    <dimen name="editor_header_back_button_margin_28px">14dp</dimen>
+    <dimen name="editor_header_button_width_104px">52dp</dimen>
+    <dimen name="editor_header_button_height_64px">32dp</dimen>
+    <dimen name="editor_footer_main_button_width_200px">100dp</dimen>
+    <dimen name="editor_footer_height_88px">44dp</dimen>
+    <dimen name="editor_body_price_height_72px">36dp</dimen>
+    <dimen name="editor_body_price_top_padding_12px">6dp</dimen>
+    <dimen name="editor_body_price_padding_28px">14dp</dimen>
+    <dimen name="editor_vertical_margin">12dp</dimen>
+    <dimen name="editor_pager_header_vertical_margin">14dp</dimen>
+    <dimen name="editor_expand_listview_group_title_height_80px">40dp</dimen>
+    <dimen name="editor_expand_listview_padding">12dp</dimen>
+    <dimen name="editor_drawer_left_margin_88px">88dp</dimen>
+    <dimen name="editor_xg_header_item_width_120px">90dp</dimen>
+    <dimen name="editor_xg_header_item_height_72px">36dp</dimen>
+    <dimen name="editor_xg_header_item_height_192px">96dp</dimen>
+    <dimen name="editor_xg_item_margin_56px">28dp</dimen>
+    <dimen name="editor_xg_item_horizontal_padding_24px">12dp</dimen>
+    <dimen name="editor_xg_header_item_padding_24px">12dp</dimen>
+    <dimen name="editor_xg_group_item_margin_24px">12dp</dimen>
+    <dimen name="editor_model_item_width_88px">49dp</dimen>
+    <dimen name="editor_model_item_height_88px">49dp</dimen>
+    <dimen name="editor_model_item_width_90px">45dp</dimen>
+    <dimen name="editor_model_item_height_90px">45dp</dimen>
+    <dimen name="editor_model_item_padding_24px">12dp</dimen>
+    <!-- 抽屉 -->
+    <dimen name="editor_sliding_drawer_left_margin_100px">50dp</dimen>
+    <dimen name="editor_sliding_drawer_handle_width_40px">30dp</dimen>
+    <dimen name="editor_sliding_drawer_handle_height_64px">50dp</dimen>
+    <dimen name="editor_sliding_drawer_content_width_440px">150dp</dimen>
+    <dimen name="editor_sliding_drawer_content_padding_16px">8dp</dimen>
+
+    <!-- 保存作品 -->
+    <dimen name="editor_save_page_icon_width_120px">60dp</dimen>
+    <dimen name="editor_save_page_icon_height_120px">60dp</dimen>
+    <dimen name="editor_save_page_item_padding_24px">12dp</dimen>
+    <dimen name="editor_save_page_content_margin_16px">8dp</dimen>
+    <dimen name="editor_save_page_content_margin_24px">12dp</dimen>
+    <dimen name="editor_save_page_content_margin_32px">16dp</dimen>
+    <dimen name="editor_save_page_content_margin_40px">20dp</dimen>
+    <dimen name="editor_save_page_input_field_height_104px">52dp</dimen>
+    <dimen name="editor_save_page_input_field_padding_12px">6dp</dimen>
+    <dimen name="editor_save_button_horizontal_margin_24px">12dp</dimen>
+
+    <!-- 分享 -->
+    <dimen name="share_page_padding">12dp</dimen>
+    <dimen name="share_pic_width">60dp</dimen>
+    <dimen name="share_pic_selector_size">15dp</dimen>
+    <dimen name="share_free_fee_page_content_padding_24px">12dp</dimen>
+    <dimen name="share_free_fee_page_content_padding_32px">16dp</dimen>
+    <dimen name="product_editor_page_horizontal_padding">12dp</dimen>
+    <dimen name="product_editor_page_vertical_margin">12dp</dimen>
+    <dimen name="product_editor_header_height">50dp</dimen>
+    <dimen name="product_editor_header_shutdown_button_container_width">38dp</dimen>
+    <dimen name="product_editor_header_shutdown_button_container_height">32dp</dimen>
+    <dimen name="product_editor_header_shutdown_button_container_padding">5dp</dimen>
+    <!-- 头部 -->
+    <dimen name="product_editor_header_navigation_width">340dp</dimen>
+    <dimen name="product_editor_header_navigation_height">44dp</dimen>
+    <dimen name="product_editor_header_navigation_horizontal_margin">10dp</dimen>
+    <!-- 分组 -->
+    <dimen name="product_editor_group_title_margin">18dp</dimen>
+    <dimen name="product_editor_group_content_vertical_margin">10dp</dimen>
+    <!-- 分组中条目 -->
+    <dimen name="product_editor_item_content_item_width_88px">44dp</dimen>
+    <dimen name="product_editor_item_content_item_height_88px">44dp</dimen>
+    <dimen name="product_editor_item_content_item_tag_width_32px">16dp</dimen>
+    <dimen name="product_editor_item_content_item_tag_height_32px">16dp</dimen>
+    <dimen name="product_editor_item_content_item_vertical_margin_16px">9dp</dimen>
+    <dimen name="product_editor_item_content_item_vertical_margin_24px">13dp</dimen>
+    <dimen name="product_editor_item_content_item_vertical_margin_12px">6.7dp</dimen>
+
+    <!-- 购物车页面 -->
+    <dimen name="shopping_cart_bottombar_height_104px">58dp</dimen>
+    <dimen name="shopping_cart_page_horizontal_padding">10dp</dimen>
+    <dimen name="shopping_cart_submit_button_width_120px">67dp</dimen>
+    <dimen name="shopping_cart_submit_button_height_72px">40dp</dimen>
+
+    <!-- 购物车页面-商家分组 -->
+    <dimen name="shopping_cart_group_header_height_88px">44dp</dimen>
+    <dimen name="shopping_cart_group_footer_height_88px">44dp</dimen>
+    <dimen name="shopping_cart_group_content_padding_24px">12dp</dimen>
+    <!-- 购物车页面-分组中子条目 -->
+    <dimen name="shopping_cart_item_vertical_padding">16dp</dimen>
+    <dimen name="shopping_cart_item_checkbox_right_margin">16dp</dimen>
+    <dimen name="shopping_cart_item_checkbox_padding_24px">12dp</dimen>
+    <dimen name="shopping_cart_item_checkbox_padding_top_48px">24dp</dimen>
+    <dimen name="shopping_cart_item_checkbox_padding_bottom_56px">28dp</dimen>
+    <dimen name="shopping_cart_item_icon_width_140px">78dp</dimen>
+    <dimen name="shopping_cart_item_icon_height_140px">78dp</dimen>
+    <dimen name="shopping_cart_item_icon_padding_16px">8dp</dimen>
+    <dimen name="shopping_cart_item_icon_bottom_margin_24px">13dp</dimen>
+    <dimen name="shopping_cart_item_title_right_margin_16px">9dp</dimen>
+    <dimen name="shopping_cart_item_f_code_left_margin_16px">9dp</dimen>
+    <dimen name="shopping_cart_item_delete_button_width_65px">36dp</dimen>
+    <dimen name="shopping_cart_item_delete_button_height_65px">36dp</dimen>
+    <dimen name="shopcar_tips_img_width_80px">40dp</dimen>
+    <dimen name="shopcar_tips_img_height_80px">40dp</dimen>
+    <dimen name="shopcar_title_button_width_104px">52dp</dimen>
+    <dimen name="shopcar_title_button_height_64px">32dp</dimen>
+    <dimen name="shopcar_title_bottom_margin_16px">9dp</dimen>
+    <dimen name="shopping_cart_item_promotion_top_margin">12dp</dimen>
+    <dimen name="shopping_cart_item_promotion_left_margin">28dp</dimen>
+    <dimen name="shopping_cart_item_promotion_bottom_margin">16dp</dimen>
+    <dimen name="shopping_cart_empty_icon_top_margin_56px">28dp</dimen>
+    <dimen name="shopping_cart_empty_icon_bottom_margin_32px">16dp</dimen>
+    <dimen name="shopping_cart_empty_button_top_margin_64px">32dp</dimen>
+    <dimen name="shopping_cart_property_container_width_384px">192dp</dimen>
+    <dimen name="shopcar_property_content_margin_8px">4dp</dimen>
+    <dimen name="shopping_cart_size_editor_top_margin_16px">9dp</dimen>
+
+    <!-- 结算页 -->
+    <dimen name="order_confirm_item_padding_32px">16dp</dimen>
+    <dimen name="order_confirm_item_content_padding_24px">12dp</dimen>
+    <dimen name="order_confirm_item_content_padding_12px">6dp</dimen>
+    <dimen name="order_confirm_group_footer_vertical_padding">18dp</dimen>
+    <dimen name="order_confirm_footer_height_104px">52dp</dimen>
+    <dimen name="order_confirm_submit_button_width_120px">67dp</dimen>
+    <dimen name="order_confirm_submit_button_height_80px">45dp</dimen>
+    <dimen name="order_confirm_group_item_height_80px">45dp</dimen>
+    <dimen name="order_confirm_inputfield_vertical_margin_24px">13dp</dimen>
+    <dimen name="order_confirm_inputfield_height_88px">44dp</dimen>
+    <dimen name="order_confirm_item_padding_24px">12dp</dimen>
+    <dimen name="order_confirm_item_icon_width_120px">67dp</dimen>
+    <dimen name="order_confirm_item_icon_height_120px">67dp</dimen>
+    <dimen name="order_confirm_item_icon_right_margin_24px">12dp</dimen>
+    <dimen name="order_confirm_item_icon_right_margin_32px">18dp</dimen>
+    <dimen name="order_confirm_invoice_checkbox_margin_16px">8dp</dimen>
+    <dimen name="order_confirm_invoice_checkbox_margin_24px">13dp</dimen>
+    <dimen name="order_confirm_invoice_item_margin_32px">16dp</dimen>
+    <dimen name="order_confirm_invoice_item_margin_24px">12dp</dimen>
+    <dimen name="order_confirm_invoice_title_height_80px">45dp</dimen>
+    <dimen name="order_confirm_selector_icon_width">20dp</dimen>
+    <dimen name="order_confirm_selector_icon_height">20dp</dimen>
+
+    <!-- 修改送货方式 -->
+    <dimen name="edit_delivery_method_titlebar_height">40dp</dimen>
+
+    <!-- 我的必要 -->
+    <dimen name="personal_center_my_item_height">111dp</dimen>
+    <dimen name="personal_center_icon_width_136px">68dp</dimen>
+    <dimen name="personal_center_icon_height_136px">68dp</dimen>
+    <dimen name="personal_center_icon_width_120px">60dp</dimen>
+    <dimen name="personal_center_icon_height_120px">60dp</dimen>
+    <dimen name="personal_center_icon_top_margin_6px">3dp</dimen>
+    <dimen name="personal_center_icon_bottom_margin_16px">9dp</dimen>
+    <dimen name="personal_center_username_hori_padding_42px">23dp</dimen>
+    <dimen name="personal_center_login_width_180px">101dp</dimen>
+    <dimen name="personal_center_login_height_42px">23dp</dimen>
+    <dimen name="personal_center_nickname_top_margin_16px">9dp</dimen>
+    <dimen name="personal_center_top_order_height_80px">40dp</dimen>
+    <dimen name="personal_center_top_passport_divider_padding_8px">4dp</dimen>
+    <dimen name="personal_center_top_order_divider_padding_15px">8dp</dimen>
+    <!-- 条目 -->
+    <dimen name="personal_center_item_height_88px">44dp</dimen>
+    <!-- 条目图标 -->
+    <dimen name="personal_center_my_item_icon_width">15dp</dimen>
+    <dimen name="personal_center_my_item_icon_height">18dp</dimen>
+    <dimen name="personal_center_item_icon_left_margin_24px">13dp</dimen>
+    <dimen name="personal_center_item_icon_left_margin_10px">5dp</dimen>
+    <dimen name="personal_center_item_icon_right_margin_32px">18dp</dimen>
+
+    <!-- 地址管理 -->
+    <dimen name="address_manager_add_btn_bg_height_96px">54dp</dimen>
+    <dimen name="address_manager_button_height_80px">45dp</dimen>
+    <dimen name="address_manager_addr_add_btn_bottom_margin_40px">22dp</dimen>
+    <dimen name="address_add_footer_height_88px">49dp</dimen>
+    <dimen name="address_add_btn_icon_padding_16px">9dp</dimen>
+
+    <!-- 设置页面条目高度 -->
+    <dimen name="settings_item_height_88px">44dp</dimen>
+    <dimen name="settings_item_vertical_margin_32px">16dp</dimen>
+    <dimen name="settings_item_vertical_margin_16px">9dp</dimen>
+    <dimen name="settings_item_vertical_margin_24px">13dp</dimen>
+    <dimen name="settings_item_side_padding">10dp</dimen>
+    <dimen name="personal_center_header_top_padding_32px">18dp</dimen>
+    <dimen name="personal_center_header_bottom_padding_40px">23dp</dimen>
+    <dimen name="settings_post_msg_button_width_136px">68dp</dimen>
+
+    <!-- 设置_关于页面 -->
+    <dimen name="about_us_logo_width">140dp</dimen>
+    <dimen name="about_us_logo_height">50dp</dimen>
+    <dimen name="about_us_logo_top_margin_144px">72dp</dimen>
+    <dimen name="about_us_download_icon_width">80dp</dimen>
+    <dimen name="about_us_download_icon_height">80dp</dimen>
+    <dimen name="about_us_slogan_top_margin_44px">22dp</dimen>
+    <dimen name="about_us_slogan_top_margin">30dp</dimen>
+    <dimen name="about_us_allright_bottom_margin_152px">76dp</dimen>
+    <dimen name="about_us_allright_item_margin_16px">8dp</dimen>
+
+    <!-- 清楚缓存 -->
+    <dimen name="catch_size_margin_right_24px">13dp</dimen>
+
+    <!-- 反馈页面 -->
+    <dimen name="feedback_content_margin_24px">13dp</dimen>
+    <dimen name="feedback_phone_height_80px">45dp</dimen>
+    <dimen name="feedback_msg_height_156px">87dp</dimen>
+    <dimen name="feedback_btn_top_margin_80px">45dp</dimen>
+
+    <!-- 消息页面 -->
+    <dimen name="message_title_icon_margin">15dp</dimen>
+
+    <!-- 右上角弹窗中条目图标 -->
+    <dimen name="dialog_item_icon_width">17dp</dimen>
+    <dimen name="dialog_item_icon_height">17dp</dimen>
+
+    <!-- 订单查询页面 -->
+    <dimen name="order_list_query_item_title_height_72px">40dp</dimen>
+    <dimen name="order_list_query_item_content_margin_16px">9dp</dimen>
+    <dimen name="order_list_query_item_body_height_120px">67dp</dimen>
+    <dimen name="order_list_query_item_icon_width_102px">57dp</dimen>
+    <dimen name="order_list_query_item_icon_height_102px">57dp</dimen>
+    <dimen name="order_list_query_item_icon_right_margin_88px">49dp</dimen>
+    <dimen name="order_list_query_item_footer_height_88px">49dp</dimen>
+    <dimen name="order_list_query_item_button_width_160px">90dp</dimen>
+    <dimen name="order_list_query_item_button_height_64px">36dp</dimen>
+    <dimen name="order_list_query_item_button_vertical_padding_12px">6dp</dimen>
+    <dimen name="order_query_item_header_height_64px">36dp</dimen>
+    <dimen name="order_query_item_header_height_72px">36dp</dimen>
+    <dimen name="order_query_item_height">80dp</dimen>
+    <dimen name="order_query_item_icon_width_height_168px">94dp</dimen>
+    <dimen name="order_query_item_icon_width_184px">92dp</dimen>
+    <dimen name="order_query_item_icon_height_184px">92dp</dimen>
+    <dimen name="order_query_item_icon_right_margin_32px">16dp</dimen>
+    <dimen name="order_query_item_text_right_margin">22dp</dimen>
+    <dimen name="order_query_item_button_width_160px">80dp</dimen>
+    <dimen name="order_query_item_button_height_80px">40dp</dimen>
+    <dimen name="order_query_item_content_padding_40px">20dp</dimen>
+    <dimen name="order_query_item_content_padding_16px">8dp</dimen>
+    <dimen name="order_query_button_padding">2dp</dimen>
+    <dimen name="order_query_button_top_padding">2dp</dimen>
+    <dimen name="order_query_button_margin_16px">8dp</dimen>
+    <dimen name="order_query_item_vertical_margin_32px">16dp</dimen>
+    <dimen name="order_query_item_vertical_margin_24px">13dp</dimen>
+    <dimen name="order_track_content_margin_24px">12dp</dimen>
+    <dimen name="order_track_progressbar_width_200px">100dp</dimen>
+    <dimen name="order_track_progressbar_height_32px">16dp</dimen>
+    <dimen name="link_text_size">17sp</dimen>
+    <dimen name="hint_text_size">20sp</dimen>
+    <dimen name="button_text_size">24sp</dimen>
+    <dimen name="tips_text_size">14sp</dimen>
+    <dimen name="lostfind_verycode_line_height">40dp</dimen>
+    <dimen name="content_padding">10dp</dimen>
+
+    <!-- 订单详情页面 -->
+    <dimen name="order_detail_content_padding_24px">12dp</dimen>
+    <dimen name="order_detail_vertical_margin">11dp</dimen>
+    <dimen name="order_detail_content_vertical_margin_24px">12dp</dimen>
+    <dimen name="order_detail_content_horizontal_margin_24px">12dp</dimen>
+    <dimen name="order_detail_content_horizontal_margin_40px">20dp</dimen>
+    <dimen name="order_detail_price_title_height_64px">32dp</dimen>
+    <dimen name="order_detail_product_icon_width_120px">60dp</dimen>
+    <dimen name="order_detail_product_icon_height_120px">60dp</dimen>
+    <dimen name="order_detail_product_info_margin_12px">6dp</dimen>
+    <dimen name="order_detail_product_item_height_80px">40dp</dimen>
+    <dimen name="order_detail_f_code_left_margin_40px">22dp</dimen>
+
+    <!-- 订单跟踪 -->
+    <dimen name="order_track_text_paddingTop_24px">12dp</dimen>
+    <dimen name="order_track_text_paddingTop_32px">16dp</dimen>
+    <dimen name="order_track_header_padding">18.3dp</dimen>
+    <dimen name="order_track_header_content_vertical_margin_24px">12dp</dimen>
+    <dimen name="order_track_item_dot_width_36px">18dp</dimen>
+    <dimen name="order_track_track_item_dot_right_margin_24px">12dp</dimen>
+    <dimen name="order_track_track_item_height">64dp</dimen>
+
+    <!-- 订单支付页面 -->
+
+    <dimen name="prepare_to_pay_header_top_padding_36px">20dp</dimen>
+    <dimen name="prepare_to_pay_header_bottom_padding_36px">20dp</dimen>
+    <dimen name="prepare_to_pay_header_icon_right_margining_30px">16dp</dimen>
+    <dimen name="prepare_to_pay_center_tips_height_64px">36dp</dimen>
+    <dimen name="order_pay_tips_height">71dp</dimen>
+    <dimen name="order_pay_header_tips_top_margin_32px">16dp</dimen>
+    <dimen name="order_pay_header_tips_top_margin_40px">20dp</dimen>
+    <dimen name="order_pay_tips2_height">50dp</dimen>
+    <dimen name="order_pay_info_horizontal_padding_24px">13dp</dimen>
+    <dimen name="order_pay_info_vertical_padding">5dp</dimen>
+    <dimen name="order_pay_info_top_padding">12dp</dimen>
+    <dimen name="order_pay_info_bottom_padding">16dp</dimen>
+    <dimen name="order_pay_item_height_88px">49dp</dimen>
+    <dimen name="order_pay_item_horizontal_margin_16px">9dp</dimen>
+    <dimen name="order_pay_button_vertical_margin">70dp</dimen>
+    <dimen name="order_pay_tips_horizontal_margin_24px">12dp</dimen>
+
+    <!-- 支付结果页面 -->
+    <dimen name="order_pay_result_button_width_280px">140dp</dimen>
+    <dimen name="order_pay_result_button_height_88px">44dp</dimen>
+    <dimen name="order_pay_result_button_margin">35dp</dimen>
+    <dimen name="order_pay_result_button_vertical_margin_40px">20dp</dimen>
+
+    <!-- 订单 地址、发票等信息选择页面参数 -->
+    <dimen name="order_address_select_vertical_margin_24px">13dp</dimen>
+    <dimen name="order_address_add_bottom_button_width">94dp</dimen>
+    <dimen name="order_address_add_bottom_button_height_72px">40dp</dimen>
+    <dimen name="order_address_add_bottom_button2_width_160px">80dp</dimen>
+    <dimen name="order_confirm_padding">12dp</dimen>
+    <dimen name="order_confirm_item_height">40dp</dimen>
+
+    <!-- 确认订单页面 -->
+    <dimen name="order_confirm_button_add_sub_width_56px">31dp</dimen>
+    <dimen name="order_confirm_button_add_sub_height_64px">36dp</dimen>
+    <dimen name="order_confirm_button_add_sub_padding_8px">10dp</dimen>
+    <dimen name="order_confirm_button_textview_width_80px">45dp</dimen>
+    <dimen name="order_confirm_button_textview_height_72px">40dp</dimen>
+
+    <!-- 商品评价页面 -->
+    <dimen name="comment_margintop">6dp</dimen>
+    <dimen name="comment_padding">6dp</dimen>
+    <dimen name="comment_item_icon_width_120px">60dp</dimen>
+    <dimen name="comment_item_icon_height_120px">60dp</dimen>
+    <dimen name="comment_icon_margin_right_24px">12dp</dimen>
+    <dimen name="comment_icon_margin_left_18px">10dp</dimen>
+    <dimen name="comment_ratingbar_margin_left">4dp</dimen>
+    <dimen name="comment_minsize_star">16dp</dimen>
+    <dimen name="comment_editText_height">30dp</dimen>
+    <dimen name="comment_common_height">120dp</dimen>
+    <dimen name="comment_start_marginleft">15dp</dimen>
+    <dimen name="product_comment_padding_24px">13dp</dimen>
+    <dimen name="product_comment_padding_32px">18dp</dimen>
+    <dimen name="product_comment_content_padding_24px">13dp</dimen>
+    <dimen name="comment_item_content_vertical_margin_16px">8dp</dimen>
+    <dimen name="comment_item_content_vertical_margin_24px">12dp</dimen>
+    <dimen name="comment_item_height_80px">40dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="slidingmenu_offset">50dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="shadow_width">5dp</dimen>
+    <dimen name="bottom_tab_padding_drawable">5dip</dimen>
+    <dimen name="bottom_tab_padding_up">2.0dip</dimen>
+    <dimen name="bottom_tab_font_size">14.0sp</dimen>
+
+    <!-- font 使用font_2-->
+    <dimen name="font22_3">12sp</dimen>
+    <dimen name="font24_3">12sp</dimen>
+    <dimen name="font28_3">12sp</dimen>
+    <dimen name="font30_3">12sp</dimen>
+    <dimen name="font32_3">12sp</dimen>
+    <dimen name="font36_3">12sp</dimen>
+    <dimen name="font40_3">13sp</dimen>
+    <dimen name="font42_3">14sp</dimen>
+    <dimen name="font48_3">16sp</dimen>
+    <dimen name="font52_3">17sp</dimen>
+    <dimen name="font54_3">18sp</dimen>
+    <dimen name="font68_3">23sp</dimen>
+    <dimen name="font20_2">10sp</dimen>
+    <dimen name="font18_2">9sp</dimen>
+    <dimen name="font16_2">8sp</dimen>
+    <dimen name="font22_2">11sp</dimen>
+    <dimen name="font24_2">12sp</dimen>
+    <dimen name="font26_2">13sp</dimen>
+    <dimen name="font28_2">14sp</dimen>
+    <dimen name="font30_2">15sp</dimen>
+    <dimen name="font32_2">16sp</dimen>
+    <dimen name="font36_2">18sp</dimen>
+    <dimen name="font40_2">20sp</dimen>
+    <dimen name="font42_2">21sp</dimen>
+    <dimen name="font48_2">24sp</dimen>
+    <dimen name="font52_2">26sp</dimen>
+    <dimen name="font54_2">27sp</dimen>
+    <dimen name="font68_2">34sp</dimen>
+    <dimen name="test">12sp</dimen>
+    <dimen name="font_12">12sp</dimen>
+    <dimen name="font_14">14sp</dimen>
+    <dimen name="font_16">16sp</dimen>
+
+    <!-- 首页 -->
+
+
+    <!-- 主页 -->
+    <dimen name="home_title_message_icon_width_40px">20dp</dimen>
+    <dimen name="home_title_message_icon_height_40px">20dp</dimen>
+    <dimen name="home_waterfall_item_divider_top_margin">14dp</dimen>
+    <dimen name="home_waterfall_item_divider_bottom_margin">12dp</dimen>
+
+    <!-- 登陆 -->
+    <dimen name="login_vercode_inputfield_height">50dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="main_item_height">320dip</dimen>
+    <dimen name="card_item_height">420dip</dimen>
+    <dimen name="card_item_margin">10dip</dimen>
+
+    <!-- 预约购买 -->
+    <dimen name="appointment_item_title_height_72px">40dp</dimen>
+    <dimen name="appointment_item_content_margin_16px">9dp</dimen>
+    <dimen name="appointment_item_content_margin_24px">13dp</dimen>
+    <dimen name="appointment_item_icon_width_144px">81dp</dimen>
+    <dimen name="appointment_item_icon_height_144px">81dp</dimen>
+    <dimen name="appointment_item_content_padding_8px">4dp</dimen>
+    <dimen name="appointment_item_content_padding_32px">18dp</dimen>
+    <dimen name="appointment_item_delete_button_width_80px">45dp</dimen>
+    <dimen name="appointment_item_delete_button_height_80px">45dp</dimen>
+    <dimen name="appointment_item_delete_button_top_margin_80px">45dp</dimen>
+    <dimen name="appointment_item_nexttime_item_height_72px">40dp</dimen>
+    <dimen name="appointment_item_nexttime_button_width_164px">92dp</dimen>
+    <dimen name="appointment_item_nexttime_button_height_72px">40dp</dimen>
+    <dimen name="appointment_item_checkbox_padding_top_56px">31dp</dimen>
+    <dimen name="appointment_item_checkbox_padding_bottom_56px">31dp</dimen>
+    <dimen name="appointment_group_time_width_38px">21dp</dimen>
+    <dimen name="appointment_group_time_height_32px">18dp</dimen>
+    <dimen name="camera_info_height">32dp</dimen>
+    <dimen name="camera_info_tv_padding_left">4dp</dimen>
+    <dimen name="camera_info_tv_padding_right">6dp</dimen>
+    <dimen name="camera_info_drawable_padding">3dp</dimen>
+    <dimen name="camera_guide_dots_margin_bottom">18dp</dimen>
+    <dimen name="camera_frame_top_margin_136px">76dp</dimen>
+    <dimen name="camera_frame_bottom_margin_56px">31dp</dimen>
+    <dimen name="camera_dash_line_top_margin_280px">171dp</dimen>
+    <dimen name="camera_dash_line_top_margin_250px">150dp</dimen>
+    <dimen name="camera_tips_msg_bottom_margin_28px">15dp</dimen>
+    <dimen name="camera_take_photo_tips_title_top_margin_24px">13dp</dimen>
+    <dimen name="camera_take_photo_tips_msg_bottom_margin_24px">13dp</dimen>
+    <dimen name="camera_take_photo_button_height_172px">96dp</dimen>
+    <dimen name="camera_take_photo_button_bottom_margin_24px">13dp</dimen>
+    <dimen name="camera_take_photo_vp_top_margin_48px">32dp</dimen>
+    <dimen name="camera_guide_close_top_margin">13dp</dimen>
+    <dimen name="camera_guide_close_right_margin">21dp</dimen>
+    <dimen name="camera_photo_dots_bottom_margin_56px">37dp</dimen>
+    <dimen name="camera_photo_image_margin_18px">6dp</dimen>
+    <dimen name="camera_photot_viewpager_padding">1dp</dimen>
+    <dimen name="camera_tip_size">15dp</dimen>
+    <dimen name="camera_photo_top_margin_48px">27dp</dimen>
+    <dimen name="camera_bottomcontainer_bottom_margin_32px">18dp</dimen>
+    <dimen name="camera_bottomcontainer_top_margin_48px">22dp</dimen>
+    <dimen name="camera_bottomcontainer_bottom_margin_64px">36dp</dimen>
+    <dimen name="camera_reshot_button_width_192px">108dp</dimen>
+    <dimen name="camera_reshot_button_height_80px">45dp</dimen>
+    <dimen name="camera_next_button_width_208px">117dp</dimen>
+    <dimen name="camera_next_button_height_80px">45dp</dimen>
+    <dimen name="camera_zoom_view_width_144px">81dp</dimen>
+    <dimen name="camera_zoom_view_height_144px">81dp</dimen>
+    <dimen name="camera_zoom_view_top_margin_56px">31dp</dimen>
+    <dimen name="camera_demo_view_width_220px">123dp</dimen>
+    <dimen name="camera_demo_view_height_220px">123dp</dimen>
+    <dimen name="camera_confirm_button_width_248px">139dp</dimen>
+    <dimen name="camera_confirm_button_height_80px">45dp</dimen>
+    <dimen name="camera_confirm_button_left_margin_64px">36dp</dimen>
+    <dimen name="glasses_info_img_padding_12px">6dp</dimen>
+    <dimen name="glasses_buy_button_width_208px">117dp</dimen>
+    <dimen name="glasses_buy_button_height_64px">36dp</dimen>
+    <dimen name="glasses_buy_button_bottom_margin_32px">18dp</dimen>
+    <dimen name="glasses_buy_button_top_margin_32px">18dp</dimen>
+    <dimen name="glasses_buy_button_top_margin_64px">36dp</dimen>
+    <dimen name="glasses_list_item_width_120px">67dp</dimen>
+    <dimen name="glasses_list_item_height_120px">67dp</dimen>
+    <dimen name="glasses_list_item_selector_padding_8px">4dp</dimen>
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+
+    <!-- 专题页 -->
+    <dimen name="button_to_top">50dp</dimen>
+    <dimen name="button_margin">6dp</dimen>
+    <dimen name="theme_btn_back_margin_left">12dp</dimen>
+    <dimen name="theme_title">22dp</dimen>
+    <dimen name="theme_listview_divider">0dp</dimen>
+    <dimen name="theme_productdetail_margin_24px">13dp</dimen>
+    <dimen name="theme_header_margin_24px">13dp</dimen>
+    <dimen name="theme_floor_padding">5dp</dimen>
+
+</resources>

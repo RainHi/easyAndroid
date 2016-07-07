@@ -1,0 +1,55 @@
+<FrameLayout android:id="@+id/view_net_error_root"
+             xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/vne_imgvi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@null"
+            android:src="@drawable/icon_no_network"/>
+
+        <TextView
+            android:id="@+id/vne_txt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/vne_imgvi"
+            android:layout_centerHorizontal="true"
+            android:text="内容加载失败"
+            android:textColor="@color/color_666666"
+            android:textSize="@dimen/font28_2"/>
+
+        <TextView
+            android:id="@+id/vne_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/vne_txt_title"
+            android:layout_centerHorizontal="true"
+            android:text="请检查网络连接情况"
+            android:textColor="@color/color_666666"
+            android:textSize="@dimen/font24_2"/>
+
+        <Button
+            android:id="@+id/vne_btn_retry"
+            android:layout_width="@dimen/size_240px"
+            android:layout_height="@dimen/size_80px"
+            android:layout_below="@id/vne_subtitle"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/size_48px"
+            android:background="@drawable/selector_btn_net_error"
+            android:enabled="true"
+            android:gravity="center"
+            android:text="重新加载"
+            android:textColor="@drawable/selector_txt_net_error"
+            android:textSize="@dimen/font32_2"/>
+    </RelativeLayout>
+
+</FrameLayout>

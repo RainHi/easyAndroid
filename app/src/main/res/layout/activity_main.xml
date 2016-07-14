@@ -4,23 +4,9 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/am_btn_load_ok"
+    <ListView
+        android:id="@+id/lvi_main"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="加载数据(成功)"/>
-
-    <Button
-        android:id="@+id/am_btn_load_fail"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="加载数据(失败)"/>
-
-    <TextView
-        android:id="@+id/am_txt_result"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="这是内容区域"/>
+        android:layout_height="match_parent"/>
 
 </LinearLayout>

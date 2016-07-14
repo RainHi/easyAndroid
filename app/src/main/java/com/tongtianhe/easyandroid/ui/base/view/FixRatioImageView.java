@@ -28,6 +28,7 @@ public class FixRatioImageView extends ImageView {
         super(context, attrs, defStyle);
         TypedArray ta=context.obtainStyledAttributes(attrs, R.styleable.FixRatioImageView);
         HWRatio=ta.getFloat(R.styleable.FixRatioImageView_ratio, HWRatio);
+        ta.recycle();
     }
 
     public void setRatio(float heightWidthRatio){

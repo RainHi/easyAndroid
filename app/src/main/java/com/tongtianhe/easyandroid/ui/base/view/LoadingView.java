@@ -35,8 +35,8 @@ public class LoadingView extends FrameLayout{
 
     private void init(){
         LayoutInflater.from(getContext()).inflate(R.layout.view_loading, this, true);
-        mProgressBar= (ProgressBar) findViewById(R.id.vl_progress);
-        mTxtDes= (TextView) findViewById(R.id.vl_txt);
+        mProgressBar= (ProgressBar) findViewById(R.id.progress);
+        mTxtDes= (TextView) findViewById(R.id.txt);
     }
 
 

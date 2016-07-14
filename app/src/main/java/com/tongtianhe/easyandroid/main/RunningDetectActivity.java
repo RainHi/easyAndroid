@@ -1,4 +1,4 @@
-package com.tongtianhe.easyandroid;
+package com.tongtianhe.easyandroid.main;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.tongtianhe.easyandroid.R;
 import com.tongtianhe.easyandroid.utils.AppUtils;
 
 /**

@@ -32,9 +32,9 @@ public class TitleBar extends FrameLayout {
     private int mRightBtnTextSize;
 
 
-    public static final int ID_RIGHT_IMAGE_BUTTTON = R.id.vtb_imgbtn_right,
-            ID_RIGHT_TEXT_BUTTON = R.id.vtb_txt_right,
-            ID_BACK_BUTTON = R.id.vtb_btn_back;
+    public static final int ID_RIGHT_IMAGE_BUTTTON = R.id.imgbtn_right,
+            ID_RIGHT_TEXT_BUTTON = R.id.txt_right,
+            ID_BACK_BUTTON = R.id.btn_back;
 
 
     public TitleBar(Context context) {
@@ -68,13 +68,13 @@ public class TitleBar extends FrameLayout {
 
     private void initViews() {
         LayoutInflater.from(getContext()).inflate(R.layout.view_title_bar, this);
-        mImgBtnBack = (ImageButton) findViewById(R.id.vtb_btn_back);
-        mLayoutCenter = (FrameLayout) findViewById(R.id.vtb_layout_center);
-        mTxtTitle = (TextView) findViewById(R.id.vtb_txt_title);
+        mImgBtnBack = (ImageButton) findViewById(R.id.btn_back);
+        mLayoutCenter = (FrameLayout) findViewById(R.id.layout_center);
+        mTxtTitle = (TextView) findViewById(R.id.txt_title);
         mTxtTitle.setText(mTitle);
-        mLayoutRight = (FrameLayout) findViewById(R.id.vtb_layout_right);
-        mTxtRight = (TextView) findViewById(R.id.vtb_txt_right);
-        mImgBtnRight = (ImageButton) findViewById(R.id.vtb_imgbtn_right);
+        mLayoutRight = (FrameLayout) findViewById(R.id.layout_right);
+        mTxtRight = (TextView) findViewById(R.id.txt_right);
+        mImgBtnRight = (ImageButton) findViewById(R.id.imgbtn_right);
         setRightBtn();
         setListeners();
     }

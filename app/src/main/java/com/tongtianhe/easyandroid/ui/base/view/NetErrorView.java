@@ -16,7 +16,7 @@ import com.tongtianhe.easyandroid.R;
  */
 public class NetErrorView extends FrameLayout {
 
-    public static final int ID_RETRY_BUTTON=R.id.vne_btn_retry;
+    public static final int ID_RETRY_BUTTON=R.id.btn_retry;
 
     private Button mBtnRetry;
 
@@ -35,7 +35,7 @@ public class NetErrorView extends FrameLayout {
 
     private void init(){
         LayoutInflater.from(getContext()).inflate(R.layout.view_net_error, this, true);
-        mBtnRetry= (Button) findViewById(R.id.vne_btn_retry);
+        mBtnRetry= (Button) findViewById(R.id.btn_retry);
     }
 
     public void setRetryClickListener(OnClickListener listener){

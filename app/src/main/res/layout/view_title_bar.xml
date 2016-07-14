@@ -6,7 +6,7 @@
                 android:background="@drawable/bg_title_bar">
     <!--left-->
     <ImageButton
-            android:id="@+id/vtb_btn_back"
+            android:id="@+id/btn_back"
             android:layout_width="@dimen/main_titlebar_height_88px"
             android:layout_height="match_parent"
             android:background="@null"
@@ -16,13 +16,13 @@
 
     <!-- center-->
     <FrameLayout
-            android:id="@+id/vtb_layout_center"
+            android:id="@+id/layout_center"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_centerHorizontal="true">
 
         <TextView
-                android:id="@+id/vtb_txt_title"
+                android:id="@+id/txt_title"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:textSize="@dimen/main_titlebar_title_size_32"
@@ -36,13 +36,13 @@
 
     <!--right-->
     <FrameLayout
-            android:id="@+id/vtb_layout_right"
+            android:id="@+id/layout_right"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_alignParentRight="true">
 
         <ImageButton
-                android:id="@+id/vtb_imgbtn_right"
+                android:id="@+id/imgbtn_right"
                 android:layout_width="@dimen/main_titlebar_height_88px"
                 android:layout_height="match_parent"
                 android:scaleType="centerInside"
@@ -51,7 +51,7 @@
                 android:visibility="gone"/>
 
         <TextView
-                android:id="@+id/vtb_txt_right"
+                android:id="@+id/txt_right"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:textSize="@dimen/main_titlebar_title_size_32"

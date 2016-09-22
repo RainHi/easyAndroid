@@ -13,7 +13,7 @@ public class MyApplication extends Application{
     public void onCreate() {
         super.onCreate();
         mInstance=this;
-        SDCardCarshHandler.getInstance().regitster(this);
+        FileCarshHandler.getInstance().regitster(this);
 
     }
 

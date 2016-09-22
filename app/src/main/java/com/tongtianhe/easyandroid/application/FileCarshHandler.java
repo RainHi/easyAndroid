@@ -25,14 +25,14 @@ import java.util.Map;
  * UncaughtException处理类,当程序发生Uncaught异常的时候,有该类来接管程序,并保存crash信息到sdcard.
  * Created by free on 16/9/21.
  */
-public class SDCardCarshHandler implements Thread.UncaughtExceptionHandler {
+public class FileCarshHandler implements Thread.UncaughtExceptionHandler {
 
     private static final String TAG="CrashHandler";
 
     // 系统默认的UncaughtException处理类
     private Thread.UncaughtExceptionHandler mDefaultHandler;
     // CrashHandler实例
-    private static SDCardCarshHandler mInstantce = new SDCardCarshHandler();
+    private static FileCarshHandler mInstantce = new FileCarshHandler();
     // 程序的Context对象
     private Context mContext;
     // 用来存储设备信息和异常信息
@@ -45,10 +45,10 @@ public class SDCardCarshHandler implements Thread.UncaughtExceptionHandler {
 
 
     /** 保证只有一个CrashHandler实例, application onCreate()可能会执行多次，要保证一个CrashHanler实例 */
-    private SDCardCarshHandler() {}
+    private FileCarshHandler() {}
 
     /** 获取CrashHandler实例 ,单例模式 */
-    public static SDCardCarshHandler getInstance() {
+    public static FileCarshHandler getInstance() {
         return mInstantce;
     }
 
@@ -142,7 +142,6 @@ public class SDCardCarshHandler implements Thread.UncaughtExceptionHandler {
      * @return
      */
     private String saveCrash2File(Throwable ex) {
-
         StringBuffer sb = new StringBuffer();
         for (Map.Entry<String, String> entry : infos.entrySet()) {
             String key = entry.getKey();

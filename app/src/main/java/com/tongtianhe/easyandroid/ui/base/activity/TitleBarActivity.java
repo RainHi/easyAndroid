@@ -24,10 +24,10 @@ public abstract class TitleBarActivity extends BaseActivity {
     @Override
     public void preLayout() {
         super.setContentView(R.layout.activity_title_bar);
-        mTitleBar= (TitleBar) findViewById(R.id.atb_title_bar);
-        mContentLayout= (FrameLayout) findViewById(R.id.atb_layout_content);
-        mNetErrorView= (NetErrorView) findViewById(R.id.atb_net_error_view);
-        mLoadingView= (LoadingView) findViewById(R.id.atb_loading_view);
+        mTitleBar = (TitleBar) findViewById(R.id.atb_title_bar);
+        mContentLayout = (FrameLayout) findViewById(R.id.atb_layout_content);
+        mNetErrorView = (NetErrorView) findViewById(R.id.atb_net_error_view);
+        mLoadingView = (LoadingView) findViewById(R.id.atb_loading_view);
         mNetErrorView.setRetryClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -58,34 +58,35 @@ public abstract class TitleBarActivity extends BaseActivity {
         return mTitleBar;
     }
 
-    public void setTitleBarTitle(String title){
+    public void setTitleBarTitle(String title) {
         mTitleBar.setTitle(title);
     }
 
-    public void showLoadingView(){
+    public void showLoadingView() {
         mLoadingView.setVisibility(View.VISIBLE);
     }
 
-    public void hideLoadingView(){
+    public void hideLoadingView() {
         mLoadingView.setVisibility(View.GONE);
     }
 
-    public NetErrorView getNetErrorView(){
+    public NetErrorView getNetErrorView() {
         return mNetErrorView;
     }
 
-    public void showErrorView(){
+    public void showErrorView() {
         mNetErrorView.setVisibility(View.VISIBLE);
     }
 
-    public void hideErrorView(){
+    public void hideErrorView() {
         mNetErrorView.setVisibility(View.GONE);
     }
 
     /**
      * NetErrorView的重试按钮单击监听，需要自己设置重写此方法
      */
-    protected void onNetRetry(){}
+    protected void onNetRetry() {
+    }
 
 
 }

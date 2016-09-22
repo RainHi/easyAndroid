@@ -1,4 +1,4 @@
-package com.tongtianhe.easyandroid.application;
+package com.tongtianhe.easyandroid.constants;
 
 /**
  * Created by free on 16/7/14.
@@ -9,9 +9,5 @@ public interface Constants {
         String RMB="￥";
     }
 
-    interface FLAG{
-        int TRUE=1;
-        int FALSE=0;
-    }
 
 }

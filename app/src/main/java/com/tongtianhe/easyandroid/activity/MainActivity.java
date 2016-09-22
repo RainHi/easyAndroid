@@ -1,4 +1,4 @@
-package com.tongtianhe.easyandroid.main;
+package com.tongtianhe.easyandroid.activity;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -18,7 +18,7 @@ import java.util.Arrays;
  */
 public class MainActivity extends Activity{
 
-    private String[] items={"ui框架", "图片加载"};
+    private String[] items={"ui框架", "图片加载", "crash保存sdcard"};
     private ListView lviMain;
 
 
@@ -48,6 +48,9 @@ public class MainActivity extends Activity{
                     case 1:
                         startActivity(new Intent(MainActivity.this, ImageLoaderActivity.class));
                         break;
+
+                    case 2:
+                        throw new NullPointerException("test");
                 }
             }
         });

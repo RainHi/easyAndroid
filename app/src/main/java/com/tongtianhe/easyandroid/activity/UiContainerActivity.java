@@ -1,4 +1,4 @@
-package com.tongtianhe.easyandroid.main;
+package com.tongtianhe.easyandroid.activity;
 
 import android.os.Handler;
 import android.view.View;
@@ -8,6 +8,9 @@ import android.widget.TextView;
 import com.tongtianhe.easyandroid.R;
 import com.tongtianhe.easyandroid.ui.base.activity.TitleBarActivity;
 
+/**
+ * ui框架
+ */
 public class UiContainerActivity extends TitleBarActivity implements View.OnClickListener{
 
     private Button mBtnLoadOk,  mBtnFail;

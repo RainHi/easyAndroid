@@ -1,4 +1,4 @@
-package com.tongtianhe.easyandroid.main;
+package com.tongtianhe.easyandroid.activity;
 
 import android.app.Activity;
 import android.os.Bundle;

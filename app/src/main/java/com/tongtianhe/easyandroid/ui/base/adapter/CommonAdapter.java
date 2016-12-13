@@ -41,7 +41,7 @@ public abstract class CommonAdapter<E> extends BaseAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
         ViewHolder holder;
         if(convertView==null){
-            holder=new ViewHolder(mContext, mLayoutId, parent, position);
+            holder=new ViewHolder(mContext, mLayoutId, parent);
             holder.getConvertView().setTag(holder);
         }else {
             holder= (ViewHolder) convertView.getTag();

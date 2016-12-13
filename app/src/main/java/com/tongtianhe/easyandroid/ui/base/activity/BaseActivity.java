@@ -2,7 +2,9 @@ package com.tongtianhe.easyandroid.ui.base.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.Window;
+import android.widget.Toast;
 
 import com.tongtianhe.easyandroid.net.volley.Net;
 
@@ -40,6 +42,13 @@ public abstract class BaseActivity extends Activity implements IInit{
     protected void onStop() {
         super.onStop();
         Net.cancelAll(getTag());
+    }
+
+    protected void toast(String text){
+        if(TextUtils.isEmpty(text)){
+            return;
+        }
+        Toast.makeText(this, text, Toast.LENGTH_SHORT).show();
     }
 
 }

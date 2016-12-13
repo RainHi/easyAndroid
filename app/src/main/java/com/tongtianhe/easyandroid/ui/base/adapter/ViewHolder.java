@@ -13,12 +13,10 @@ import android.widget.TextView;
 public class ViewHolder {
 
     private View convertView;
-    private int position;
     private SparseArray<View> views=new SparseArray<View>();
 
-    public ViewHolder(Context context, int layoutId, ViewGroup parent, int position) {
+    public ViewHolder(Context context, int layoutId, ViewGroup parent) {
         convertView= LayoutInflater.from(context).inflate(layoutId, parent, false);
-        this.position = position;
     }
 
 
@@ -26,9 +24,6 @@ public class ViewHolder {
         return convertView;
     }
 
-    public int getPosition(){
-        return position;
-    }
 
     public <T extends View> T getView(int viewId){
         View v =views.get(viewId);

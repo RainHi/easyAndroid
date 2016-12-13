@@ -22,17 +22,23 @@ public class FixRatioImageView extends ImageView {
 
     public FixRatioImageView(Context context, AttributeSet attrs) {
         super(context, attrs);
+        init(attrs);
     }
 
     public FixRatioImageView(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
-        TypedArray ta=context.obtainStyledAttributes(attrs, R.styleable.FixRatioImageView);
-        HWRatio=ta.getFloat(R.styleable.FixRatioImageView_ratio, HWRatio);
+        init(attrs);
+    }
+
+    private void init(AttributeSet attrs){
+        TypedArray ta=getContext().obtainStyledAttributes(attrs, R.styleable.FixRatioImageView);
+        HWRatio = ta.getFloat(R.styleable.FixRatioImageView_HWRatio, HWRatio);
         ta.recycle();
     }
 
     public void setRatio(float heightWidthRatio){
         HWRatio=heightWidthRatio;
+        requestLayout();
     }
 
     @Override

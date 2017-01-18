@@ -2,6 +2,7 @@ package com.tongtianhe.easyandroid.utils;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.ApplicationInfo;
 import android.net.Uri;
 
 import java.io.File;
@@ -25,5 +26,22 @@ public class ApkUtils {
                 "application/vnd.android.package-archive");
         ct.startActivity(intent);
     }
+
+
+    /**
+     * 是否是debug模式
+     * @param context
+     * @return
+     */
+    public static boolean isApkDebugable(Context context) {
+        try {
+            ApplicationInfo info= context.getApplicationInfo();
+            return (info.flags&ApplicationInfo.FLAG_DEBUGGABLE)!=0;
+        } catch (Exception e) {
+
+        }
+        return false;
+    }
+
 
 }

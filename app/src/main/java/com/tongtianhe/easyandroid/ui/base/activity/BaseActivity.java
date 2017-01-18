@@ -7,6 +7,7 @@ import android.view.Window;
 import android.widget.Toast;
 
 import com.tongtianhe.easyandroid.net.volley.Net;
+import com.tongtianhe.easyandroid.utils.DebugUtil;
 
 /**
  * Created by free on 16/6/17.
@@ -36,6 +37,12 @@ public abstract class BaseActivity extends Activity implements IInit{
 
     protected String getTag(){
         return getClass().getSimpleName();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        DebugUtil.logPageInfo(this);
     }
 
     @Override

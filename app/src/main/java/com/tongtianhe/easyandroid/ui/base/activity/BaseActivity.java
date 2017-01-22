@@ -7,7 +7,7 @@ import android.view.Window;
 import android.widget.Toast;
 
 import com.tongtianhe.easyandroid.net.volley.Net;
-import com.tongtianhe.easyandroid.utils.DebugUtil;
+import com.tongtianhe.easyandroid.utils.debug.DebugUtil;
 
 /**
  * Created by free on 16/6/17.
@@ -33,7 +33,9 @@ public abstract class BaseActivity extends Activity implements IInit{
     public void preLayout() {}
 
     @Override
-    public void postLayout() {}
+    public void postLayout() {
+        DebugUtil.injectAllView(findViewById(Window.ID_ANDROID_CONTENT));
+    }
 
     protected String getTag(){
         return getClass().getSimpleName();

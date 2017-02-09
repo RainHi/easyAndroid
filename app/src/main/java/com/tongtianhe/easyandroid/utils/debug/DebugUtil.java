@@ -18,8 +18,15 @@ import java.lang.reflect.Field;
  */
 public class DebugUtil {
 
-    public static final String DEBUG_TAG="debug";
+    /**
+     * 调试开关，打开后，
+     * 1.debug包可以打印启动的activity的名和参数
+     * 2.单击所有控件都可以打印控件的id方便阅读代码
+     * （用完记得要关闭此开关）
+     */
     public static final boolean DEBUGING=true;
+
+    public static final String DEBUG_TAG="debug";
     public static final String END_LINE="-----------------------------------------------------------------";
 
 
